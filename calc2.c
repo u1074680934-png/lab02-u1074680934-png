@@ -8,12 +8,11 @@ int main() {
  scanf("%d", &x);
  result = x;
  while(1) {
-  
-  scanf(" %c",&op);
-  if (op == '=') {
-   break;
-  }
-  scanf("%d",&x);
+ scanf (" %c",&op);
+ if (op == '=') {
+  break;
+ }
+ scanf(" %d",&x);
  if (op == '+') {
   result += x;
  }
